@@ -9,7 +9,7 @@
 	},
 	"description": "Decorators @Length, @MinLength, @MaxLength to enforce fixed or flexible string length limits on class properties",
 	"devDependencies": {
-		"typescript": "~5.8"
+		"typescript": "~5.9"
 	},
 	"engines": {
 		"node": ">=18"
@@ -44,5 +44,5 @@
 		"build": "tsc"
 	},
 	"types": "./cjs/length.d.ts",
-	"version": "0.0.1"
+	"version": "0.0.2"
 }
