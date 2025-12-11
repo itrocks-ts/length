@@ -24,15 +24,20 @@
 	],
 	"keywords": [
 		"backend",
+		"constraint",
 		"decorator",
+		"field",
 		"fixed",
 		"it.rocks",
 		"decimals",
 		"float",
+		"length",
 		"number",
 		"numeric",
 		"property",
-		"text"
+		"string",
+		"text",
+		"validation"
 	],
 	"license": "ISC",
 	"name": "@itrocks/length",
@@ -44,5 +49,5 @@
 		"build": "tsc"
 	},
 	"types": "./cjs/length.d.ts",
-	"version": "0.0.2"
+	"version": "0.0.3"
 }
