@@ -2,8 +2,8 @@ import { ObjectOrType } from '@itrocks/class-type'
 import { decorate }     from '@itrocks/decorator/property'
 import { decoratorOf }  from '@itrocks/decorator/property'
 
-export * from './max-length'
-export * from './min-length'
+export { MaxLength, maxLengthOf } from './max-length'
+export { MinLength, minLengthOf } from './min-length'
 
 const LENGTH = Symbol('length')
 
